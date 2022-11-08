@@ -1,43 +1,41 @@
-flight-price
+## Flight Fare Prediction
 
 
-Problem Statement:
+### Problem Statement:
 Travelling through flights has become an integral part of today’s lifestyle as more and more people are opting for faster travelling options. The flight ticket prices increase or decrease every now and then depending on various factors like timing of the flights, destination, and duration of flights various occasions such as vacations or festive season. Therefore, having some basic idea of the flight fares before planning the trip will surely help many people save money and time.
 
-Goal:
+### Goal:
 The main goal is to predict the fares of the flights based on different factors available in the provided dataset.
 
-Approach:
+### Approach:
 The classical machine learning tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and Model Testing. Try out different machine learning algorithms that’s best fit for the above case.
 
-Dataset:
+### Dataset:
 https://github.com/MadhuPincha/ineuron-internship-Flight-Fare-Prediction/tree/main/flight-price-main/Data
 
-Project Various Step
-Data Exploration
+### Project Various Step
+#### Data Exploration
 I started exploring datasets using pandas, NumPy,matplotlib and seaborn.
 
-Data visualization
+#### Data visualization
 Ploted colleration matrix to get insights about dependend and independed variables. Made chats like( Bocxplot,countplot,distplot,pairplot).
 
-
-
-Model Selection
+#### Model Selection
 Made many Models But selected RandomForest Regressor.
 
-Hyperparameter Optimization
+#### Hyperparameter Optimization
 Using Randomizedsearch CV and GridSearch CV to select the best parameter for training the model
 
-Model Dump
+#### Model Dump
 As per selected trained model is dumped to pickled format for app development
 
-Ide used Pycharm
+#### Ide used 
+Pycharm
 
-
-Model Accuracy
+#### Model Accuracy
 81.2%
 
-Deployed:
-Deployed on heroku -- https://airplanepricepredictor.herokuapp.com/predict
+### Deployed:
+#### Deployed on heroku -- https://airplanepricepredictor.herokuapp.com/predict
 
-Footer
+Thanks!!!
